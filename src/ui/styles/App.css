@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  background-color: #282c34;
+  min-height: 100vh;
+  color: white;
+  padding: 20px;
+}
+
+.Row {
+  display: flex;
+  flex-direction: row;
+}
+
+.Col {
+  flex-grow: 1;
+}
+
+.Col + .Col {
+  margin-left: 20px;
+}
+
+.FormGroup {
+  margin: 0 0 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.FormGroup-label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.RangeInput {
+  width: 100%;
+}
+
+.Select {
+  width: 100%;
+  border-radius: 5px;
+  padding: 7px 5px;
+}
+
+.Button {
+  width: 100%;
+  background: #620974;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
