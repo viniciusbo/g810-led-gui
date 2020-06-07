@@ -1,6 +1,6 @@
 # G810 Led GUI for Linux
 
-Simple GUI on top of (g810-led)[https://github.com/MatMoul/g810-led].
+Simple GUI on top of [g810-led](https://github.com/MatMoul/g810-led).
 
 ## Building for development
 
